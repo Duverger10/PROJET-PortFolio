@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="css/style.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon PortFOLIO</title>
+    <header>
+        <!-- script pour afficher la date du jour sur mon site -->
+
+        <p class="date">Aujourd'hui :<span id=" Date du jour"></span></p>
+        <p class="heure">Heure :<span id="horloge" ></span></p>
+        <script>
+            document.getElementById(" Date du jour").textContent = new Date().toLocaleDateString();
+            document.getElementById("horloge").textContent = new Date().toLocaleTimeString();
+
+        </script>
+    </header>
+</head>
+<body>
+<h1>Mon PortFOLIO</h1>
+<h1 class="logo"> 0x0</h1>
+<p class="intro">
+    Bienvenue sur mon PortFOLIO, ceci est une version test avant la version finale.
+</p>
+<p class="information"> Sur ce site, vous retrouverez toutes les informations me concernant</p>
+<h2>Mes projets</h2>
+<li>
+    <button> Entreprise </button>
+    <button> Cours </button>
+    <button>Projets personnels</button>
+    <button>Autres</button>
+</li>
+</body>
+<footer>
+    <p>&copy; <span id="year"></span> DuvergerPortfolio.fr - Tous droits réservés.</p>
+</footer>
+
+<!-- script pour insérer l'année dans le footer -->
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+<!-- mission accomplie , test terminé -->
+</html>

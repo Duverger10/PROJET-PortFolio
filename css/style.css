@@ -1,0 +1,100 @@
+head {
+    background-color: #000000;
+    color: #ffffff;
+
+}
+
+
+header{
+    background-color: #66553260;
+    color: #ffffff;
+}
+
+.date{
+    background-color: #66793270;
+    color: #ffffff;
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.heure{
+    background-color: #66793270;
+    color: #ffffff;
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+body {
+    background-color: darkolivegreen;
+    color: #000000;
+}
+
+h1 {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 50px;
+
+}
+
+.logo{
+    width: 100px;
+    text-align:center;
+    margin: auto;
+    height: 50px;
+    padding: 20px 10px 20px 10px;
+}
+
+/** ne pas oublier de transformer le logo en image*/
+
+
+.intro{
+    background-color: #000000;
+    color: #ffffff;
+    text-align: -moz-left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 20px 10px 20px 10px;
+    font-weight: bold;
+}
+
+.information{
+   background-color: darkolivegreen;
+    color: #ffffff;
+    text-align: -moz-left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+
+h2{
+    background-color: #000000;
+    color: #ffffff;
+    text-align: -moz-left;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+button{
+    background-color: black;
+    color: white;
+    text-align: -moz-left;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+footer {
+
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding: 10px;
+}
